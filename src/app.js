@@ -5,11 +5,11 @@ const request = require('request');
 
 
 const app =express();
+const port = process.env.PORT || 3000
 const hbs = require('hbs');
 const path = require('path');
 const dirtoPublic= path.join(__dirname,'../public')
 const templates =path.join(__dirname, '../templates/views');
-const port = 3000;
 const handleLoc = path.join(__dirname,'../templates/partials');
 //set the template engine hbs so that express can use it 
 app.set('view engine', 'hbs');
@@ -88,5 +88,5 @@ app.get('*',(req,res)=>{
 
 
 app.listen(port,()=>{
-    console.log("Server Started")
+    console.log("Server Started On Port "+port)
 })
