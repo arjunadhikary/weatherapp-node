@@ -1,0 +1,23 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: aliceblue;
+
+}
+h1{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: aliceblue;
+}
+  
+img{
+   height: 450px;
+   width: 180px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
