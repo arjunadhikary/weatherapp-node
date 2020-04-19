@@ -2,7 +2,7 @@ const submit = document.querySelector('form');
 const search = document.querySelector('input');
 const pOne = document.querySelector('#dataOne');
 const pTwo = document.querySelector('#dataTwo');
-console.log("%cHELP TO FIX THE BUG!!!","color: red; font-family:monospace; font-size: 30px");
+console.log("%cLET'S UNITE TO FIX THE BUG!!!","color: red; font-family:monospace; font-size: 30px");
 
 
 
