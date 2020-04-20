@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <meta name="description" content="This is A Website For Weather">
         <link rel="icon" href="/images/icon.png">
 
     <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
@@ -13,15 +14,21 @@
 
 <body>
      {{>header}}
+     <div class="container">
       <h2 style="text-align: center;">{{title}}</h2>
-      <form>
-          <input placeholder="location" type="text">
-          <button>Submit</button>
+      <div class="center">
+      <form class="form">
+          <input placeholder="location" type="text" id="button">
+          <button id="button">Submit</button>
+           <p id="dataOne" style="text-align: center;"></p>
+           <p id ="dataTwo" style="text-align: center;"></p>
       </form>
-      <p id="dataOne"></p>
-      <p id ="dataTwo"></p>
-     <h2 style="text-align: center;">Created By Arjun Adhikari</h2>
+      </div>
+</div>
+<div class="footer">
+       <h3 style="text-align: center;">Created By Arjun Adhikari</h2>
 
+</div>
 </body>
 
 </html>
